@@ -6,6 +6,8 @@ public static void main(String[] args) {
     for (int i = 1; i <= 5; i++) {
         ans = ans * i;
     }
+    System.out.println("Print this before");
     System.out.println("The factorial of 5 is " + ans);
+    
 }
 }
